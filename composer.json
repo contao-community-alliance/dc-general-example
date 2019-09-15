@@ -1,0 +1,44 @@
+{
+    "name": "contao-community-alliance/dc-general-example",
+    "description": "This contains examples of how to use dc-general",
+    "keywords": [
+        "framework",
+        "data",
+        "container",
+        "driver",
+        "php",
+        "contao",
+        "dc-general",
+        "example"
+    ],
+    "type": "library",
+    "homepage": "http://c-c-a.org/",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Christian Schiffler",
+            "email": "c.schiffler@cyberspectrum.de",
+            "homepage": "http://www.cyberspectrum.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Sven Baumann",
+            "email": "baumann.sv@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/contao-community-alliance/dc-general-example/issues",
+        "wiki": "http://de.contaowiki.org/DC_General",
+        "irc": "irc://irc.freenode.org/contao.dev",
+        "source": "https://github.com/contao-community-alliance/dc-general-example"
+    },
+    "require-dev": {
+        "contao-community-alliance/dc-general": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContaoCommunityAlliance\\DcGeneral\\Example\\": "src"
+        }
+    }
+}
