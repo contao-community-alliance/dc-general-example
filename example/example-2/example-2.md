@@ -59,4 +59,4 @@ TODO add examples for the events.
 
 
 
-[example-2]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-1/example-2.md
+[example-2]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-2/example-2.md
