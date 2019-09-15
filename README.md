@@ -20,4 +20,27 @@ This also shows the differences in configuration between the data container `Tab
 This example is built using the backend module themes.
 
 
+Example of what data container callback can be replaced with what event:
+------------------------------------------------------------------------
+This [example][example-2] shows how to replace the callbacks in the data container with which event.
+
+Show [here][example-1].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [example-1]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-1/example-1.md
+[example-2]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-1/example-2.md
