@@ -32,7 +32,7 @@ Now we have the data we need for our import. Next it has to be processed.
 You should use this event, which is configured [here][service-event]. So you can complete your import.
 
 
-[example-2]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-3/example-3.md
+[example-3]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-3/example-3.md
 [dca configuration]: https://github.com/contao-community-alliance/dc-general-example/blob/master/src/Resources/contao/dca/tl_dcg_themes_import.php
 [config-mod]: https://github.com/contao-community-alliance/dc-general-example/blob/master/src/Resources/contao/config/config.php#L26-L28
 [config-hook]: https://github.com/contao-community-alliance/dc-general-example/blob/master/src/Resources/contao/config/config.php#L24
