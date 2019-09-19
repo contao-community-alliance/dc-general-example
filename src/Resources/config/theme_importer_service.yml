@@ -1,0 +1,19 @@
+services:
+    # HOOK src/Resources/contao/config/config:24
+    ContaoCommunityAlliance\DcGeneral\Example\EventListener\BackendIntegration\Design\ManipulateImportUrlListener:
+        # HOOKS must declare public
+        public: true
+        arguments:
+            - "@router"
+            - "@request_stack"
+
+    ContaoCommunityAlliance\DcGeneral\Example\EventListener\DcGeneral\Table\DcgThemeImport\ThemeImporterListener:
+        public: false
+        calls:
+            -   method: setScopeDeterminator
+                arguments:
+                  - "@cca.dc-general.scope-matcher"
+        tags:
+            -   name: kernel.event_listener
+                event: dc-general.model.post-persist
+                method: onImport

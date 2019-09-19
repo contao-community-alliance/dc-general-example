@@ -27,6 +27,11 @@ This [example][example-2] shows how to replace the callbacks in the data contain
 Show [here][example-2].
 
 
+Example of an no operational data provider:
+-------------------------------------------
+The no operational data provider is a excellent feature from the dcg. With this provider you can do very useful things.
+
+This [example][example-3] shows how use the no operational data provider.
 
 
 
@@ -44,3 +49,4 @@ Show [here][example-2].
 
 [example-1]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-1/example-1.md
 [example-2]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-2/example-2.md
+[example-3]: https://github.com/contao-community-alliance/dc-general-example/blob/master/example/example-3/example-3.md
